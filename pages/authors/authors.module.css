@@ -1,0 +1,101 @@
+.container {
+  max-width: 1200px;
+  margin: 10rem auto 10px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.author_name_row {
+  width: 98%;
+  border-bottom: 1px solid #e9e8e8;
+  margin: auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1f1a17;
+  padding: 2% 2% 2% 0;
+  width: 98%;
+  margin: auto;
+}
+.top_container_img {
+  /* width: 200px;
+  height: 400px;
+    object-fit: contain; */
+  object-fit: contain;
+    /* height: 540px !important;  */
+  margin-top: 1rem !important;
+  width: 100% !important;
+}
+.author_name {
+  font-family: IBM Plex Serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #1f1a17;
+  padding: 9% 2% 2% 0;
+  width: 98%;
+  margin: auto;
+  text-shadow: 0px 0px 0.5px #1f1a17;
+  text-transform: capitalize;
+}
+.border_bottom_line {
+  height: 3px;
+  width: 15%;
+  background-color: #da251c;
+}
+.user_profile_name {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  align-items: center;
+}
+.user_profile_name_span {
+  font-family: IBM Plex Serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #1f1a17;
+  border-radius: 50%;
+  background-color: white;
+  border: 4px solid transparent;
+  padding: 5% 8%;
+}
+.card {
+  height: 20rem;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s all;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  background-image: linear-gradient(135deg, white, gray);
+  border-radius: 7px;
+  position: relative;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.card_row {
+  padding-inline: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .author_name {
+    font-size: 22px;
+  }
+  .border_bottom_line {
+    width: 35%;
+  }
+}

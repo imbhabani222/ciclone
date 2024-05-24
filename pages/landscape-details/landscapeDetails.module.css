@@ -1,0 +1,234 @@
+.landscape_detail_container {
+  /* width: 100%; */
+  /* margin-top: 8.8rem; */
+  /* display: flex;
+    flex-direction: column; */
+  /* margin-bottom: 5%; */
+  max-width: 1200px;
+  margin: 8.8rem auto 8%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.landscape_details_content {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+}
+.landscape_detail_container .ant-list-split .ant-list-item {
+  border-bottom: 0px;
+}
+.landscape_paragraph {
+  /* margin-top: 5%; */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f1a17;
+}
+.landscape_detail_bottom_border {
+  margin-top: 5%;
+  height: 3px;
+  width: 20%;
+  background-color: #da251c;
+  margin-bottom: 3%;
+}
+.landscape_detail_center_div {
+  background: #f4f4f3;
+  padding: 4%;
+  margin-bottom: 3%;
+}
+.landscape_detail_center_divs {
+  margin-bottom: 3%;
+  background: red;
+}
+.landscape_detail_sub_header {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #1f1a17;
+}
+.landscape_detail_letter {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f1a17;
+}
+.landscape_details_authors {
+  /* margin-top: 5%; */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1f1a17;
+}
+.ci_home_connect_ask_querry_heading {
+  color: #ffffff;
+  font-family: "IBM Plex Serif";
+  font-size: 40px;
+  font-weight: 500;
+  text-align: left;
+  font-style: normal;
+}
+.ci_home_connect_ask_querry_heading_bottom_border {
+  height: 3px;
+  width: 5%;
+  background-color: red;
+  margin-bottom: 1%;
+}
+.ci_home_connect_ask_querry_subheading {
+  text-align: left;
+  padding-top: 3%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.ci_home_connect_ask_us_btn_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2%;
+}
+.ci_home_connect_ask_us_btn {
+  padding-inline: 10px;
+  border-radius: 20px;
+  color: #da251c;
+  cursor: pointer;
+}
+.landscape_details_linkedin_icon {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.topic_details_content {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.topic_details_subparagraph {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f1a17;
+  opacity: 0.6;
+}
+.email_input {
+  align-items: center;
+}
+.email_input .ant-input-affix-wrapper {
+  background-color: #f4f4f3;
+  border-radius: 50px;
+}
+.email_input .ant-input-affix-wrapper > input.ant-input {
+  background-color: #f4f4f3;
+  border-radius: 50px;
+}
+.topic_details_card {
+  background: #1f1a17;
+  padding: 5% 2%;
+}
+.topic_details_card .ant-list-vertical .ant-list-item-meta-title {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 136%;
+  color: #ffffff;
+}
+.topic_details_card .ant-list-item-meta-title > a {
+  color: #ffffff;
+}
+.topic_details_card_image {
+  width: 384px;
+  height: 236px;
+}
+.landscape_details_image_mobile_view {
+  height: 365px;
+  width: 596px;
+}
+.topic_details_card .ant-list-item-meta-title > a {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 136%;
+  color: #ffffff;
+}
+.ant-list-item-meta-title > a {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 136%;
+  color: #ffffff;
+}
+.titles_data {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 136%;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.landscape_details_title {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 136%;
+  color: #ffffff;
+}
+.topic_details_card .ant-list-item-meta-description {
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  .landscape_details_linkedin_icon {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .landscape_details_image_mobile_view {
+    height: 257px;
+    width: 300px;
+  }
+}
+.ant-list-item-meta-title > a {
+  color: red;
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .landscape_details_linkedin_icon {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .landscape_details_image_mobile_view {
+    height: 257px;
+    width: 300px;
+  }
+}
+.titles_data {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 136%;
+  color: #ffffff;
+  margin-bottom: 0px;
+}

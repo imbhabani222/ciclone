@@ -1,0 +1,179 @@
+.ci_home_campaigns_container {
+  display: flex;
+  width: 100%;
+  margin: 3% auto;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+.ci_home_essentials_heading {
+  font-family: IBM Plex Serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: start;
+  padding: 1% 1% 0 0;
+  color: #1f1a17;
+}
+
+.ci_home_essentials_heading_bottom_border {
+  height: 3px;
+  width: 10.6rem;
+  /* width: 10%; */
+  background-color: #da251c;
+  margin: 2% 0 1% 0;
+}
+
+.inner_carousel1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.ci_home_campaign_subheading {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.6;
+}
+
+.ci_home_campaigns_card {
+  width: 90%;
+  padding: 1%;
+  height: max-content;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: none;
+  transition: all 0.4s;
+}
+
+/* .ci_home_campaigns_card:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2%;
+} */
+.ci_home_campaigns_card_img {
+  width: 100%;
+  height: 256px;
+}
+
+.ci_home_campaigns_card_heading {
+  font-family: IBM Plex Serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 3% 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.ci_home_campaigns_card_subheading {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.6;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.ci_home_btn_mrgn_left {
+  margin-left: 2%;
+}
+
+.ci_home_campaigns_card_btn_wrapper {
+  margin-top: 5%;
+}
+
+.ci_home_slider_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.ci_home_slider_viewmore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #da251c !important;
+  border: 1px solid rgba(43, 42, 41, 0.1);
+  border-radius: 20px !important;
+  padding: 1.5%;
+}
+
+.ci_home_slider_viewmore:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 2px 3px #ff000029;
+}
+
+.arrow_red_icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 4%;
+}
+
+.arrow_btns {
+  height: 40px;
+  width: 40px;
+}
+
+.arrow_right {
+  margin-left: 10%;
+}
+
+.ci_home_slider_container div {
+  display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+  .hide_arrow_btns {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ci_home_essentials_heading {
+    font-size: 25px;
+  }
+
+  /* .ci_home_essentials_heading_bottom_border {
+    width: 30%;
+  } */
+}
+
+@media only screen and (max-width: 480px) {
+  .ci_home_essentials_heading {
+    font-size: 22px;
+  }
+
+  .ci_home_campaign_subheading {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,45 @@
+.container {
+    max-width: 1200px;
+    margin: 10rem auto 1rem;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 1px solid red; */
+}
+
+.note_name_row {
+    width: 98%;
+    border-bottom: 1px solid #e9e8e8;
+    margin: auto;
+}
+
+.note_head {
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 136%;
+}
+
+.note_card {
+    margin: 5rem;
+    margin-bottom: 1rem;
+}
+
+.note_second_card {
+    margin: 5rem;
+    margin-top: 1rem;
+    /* border: 2px solid red; */
+}
+
+.para_note {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: justify;
+    color: #1f1a17;
+    opacity: 0.9;
+}

@@ -1,0 +1,68 @@
+.ci_home_campaigns_container {
+  display: flex;
+  width: 92%;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+.inner-carousel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 2%;
+}
+.ci_home_campaign_subheading {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.6;
+}
+.ci_home_campaigns_card{
+  width: 90%;
+  padding: 1%;
+  height: max-content;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.ci_home_campaigns_card_img{
+  width: 100%;
+  height: 40%;
+}
+.ci_home_campaigns_card_heading{
+font-family: IBM Plex Serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+.ci_home_campaigns_card_subheading{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.6;  
+}
+.ci_home_btn_mrgn_left{
+  margin-left: 2%;
+}
+.ci_home_campaigns_card_btn_wrapper{
+  margin-top: 2%;
+}
+
+@media  only screen and (max-width: 600px) {
+  .third-btn-ci-home-campaigns{
+    margin-left:0;
+    margin-top: 2%;
+  }
+}

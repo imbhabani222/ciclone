@@ -1,0 +1,163 @@
+.container {
+  max-width: 1200px;
+  margin: 10rem auto 10px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.author_name_row {
+  width: 98%;
+  border-bottom: 1px solid #e9e8e8;
+  margin: auto;
+}
+.author_profile_container {
+  /* border: 2px solid red; */
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 2%;
+}
+.author_details_container {
+  /* border: 2px solid green; */
+}
+.number_of_posts {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.author_name_left {
+  font-family: IBM Plex Serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.author_subheading_left {
+  /* font-family: Robo; */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  opacity: 0.5;
+}
+.author_img span {
+  border: 2px solid pink !important;
+  width: 50% !important;
+  height: 100px !important;
+  width: 100px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin: auto !important;
+}
+.author_name {
+  font-family: IBM Plex Serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1f1a17;
+  padding: 2% 2% 2% 0;
+  width: 98%;
+  margin: auto;
+}
+.author_post_card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+}
+.border_bottom_line {
+  height: 3px;
+  width: 15%;
+  background-color: #da251c;
+}
+.author_short_details {
+  margin: 2%;
+  background-color: #f4f4f3;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 2%;
+  /* font-weight: 500; */
+}
+.more_about_author_heading {
+  margin: 2%;
+  font-family: IBM Plex Serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1f1a17;
+}
+.more_about_author_details {
+  margin: 2%;
+}
+.more_about_author_details p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: justify;
+  color: #1f1a17;
+  opacity: 0.7;
+}
+.author_all_posts {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.post_name {
+  font-family: IBM Plex Serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1f1a17;
+  cursor: pointer;
+}
+.post_article {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1f1a17;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.more_abt_author_heading {
+  color: #1f1a17;
+  font-family: IBM Plex Serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 2% 2% 2% 0 ;
+}
+
+@media only screen and (max-width: 600px) {
+  .author_name {
+    font-size: 28px;
+  }
+  .border_bottom_line {
+    width: 35%;
+  }
+}

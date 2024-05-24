@@ -1,0 +1,11 @@
+.home_wrapper {
+  max-width: 1200px;
+  width: 85%;
+  /* height: 100vh; */
+  margin: 8.8rem auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: auto; */
+}

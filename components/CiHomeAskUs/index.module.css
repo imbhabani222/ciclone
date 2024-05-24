@@ -1,0 +1,125 @@
+.ci_home_connect_container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.ci_home_connect_ask_querry_container {
+  height: fit-content;
+  width: 100%;
+  background-color: black;
+  margin-top: 4rem;
+  padding: 4% 6%;
+}
+.ci_home_connect_ask_querry_right_card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1%;
+  row-gap: 10px;
+  padding-top: 10px;
+}
+
+.ci_home_connect_ask_querry_heading {
+  font-family: IBM Plex Serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 0 1% 0 0;
+  color: white;
+}
+.ci_home_connect_ask_querry_heading_bottom_border {
+  height: 3px;
+  width: 10.6rem;
+  /* width: 20%; */
+  background-color: #da251c;
+  margin: 2% 0 3% 0;
+}
+.ci_home_connect_ask_querry_subheading {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+  opacity: 0.6;
+  padding-top: 3%;
+  padding-right: 17%;
+}
+.ci_home_connect_ask_querry_right_card_input {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+.ci_home_connect_ask_us_btn_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4%;
+}
+.ci_home_connect_ask_us_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.4rem;
+  /* font-family: DM Sans; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #da251c !important;
+  border: 1px solid rgba(43, 42, 41, 0.1);
+  border-radius: 25px !important;
+  padding: 1.5%;
+  width: 156px;
+  height: 48px;
+  background-color: white;
+  cursor: pointer;
+  /* width: 25%; */
+}
+.ask_us {
+  height: 20px;
+  width: 20px;
+  margin-left: 4%;
+}
+.icon_wrapeer {
+  /* border-radius: 50%; */
+  padding: 5px;
+  /* border: 1px solid #ba9e78; */
+}
+
+@media only screen and (max-width: 992px) {
+  .ci_home_connect_ask_querry_right_card {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .ci_home_connect_ask_querry_left_card {
+    line-height: 0;
+  }
+  .ci_home_connect_ask_querry_heading {
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .ci_home_connect_ask_us_btn {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .ci_home_connect_ask_querry_heading {
+    font-size: 22px;
+  }
+  .ci_home_connect_ask_querry_subheading {
+    text-align: justify;
+    padding-right: 0%;
+    font-size: 14px;
+  }
+  .ci_home_connect_ask_querry_right_card {
+    padding-left: 0;
+    padding-top: 10%;
+  }
+}

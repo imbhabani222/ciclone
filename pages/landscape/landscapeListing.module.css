@@ -1,0 +1,9 @@
+.askus_container {
+  width: 85%;
+  margin:auto;
+}
+.landscape_wrapper {
+  width: 100%;
+  margin:  9rem auto;
+  max-width: 1200px;
+}

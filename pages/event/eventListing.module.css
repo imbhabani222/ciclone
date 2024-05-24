@@ -1,0 +1,39 @@
+.askus_container {
+  width: 85%;
+  margin: auto;
+  max-width: 1200px;
+}
+.event_wrapper {
+  width: 100%;
+  margin: 11rem auto 6rem;
+  /* max-width: 1200px; */
+}
+.pagination_div{
+  width: 85%;
+  margin: 5.6rem auto;
+  max-width:1200px;
+}
+.pagination {
+  text-align: left;
+  height:48px;
+  /* margin: 5rem auto 10rem auto; */
+}
+.pagination li {
+  border: 0;
+  display: inline-table;
+  height: 100%;
+}
+.ant-pagination-item-active a{
+  color: #da251c;
+}
+@media only screen and (max-width: 480px) {
+  .pagination_div{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .pagination {
+    
+    margin: 0 auto 5rem;
+  }
+}
+
